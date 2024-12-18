@@ -148,9 +148,13 @@ void conv2d(image_t input[5][5],
 void conv2d(image_t input[5][5],
             kernel_t kernel[3][3],
             result_t output[5 - 3 + 1][5 - 3 + 1]) {_ssdm_SpecArrayDimSize(input, 5);_ssdm_SpecArrayDimSize(kernel, 3);_ssdm_SpecArrayDimSize(output, 3);
+_ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+_ssdm_op_SpecInterface(output, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+_ssdm_op_SpecInterface(kernel, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+_ssdm_op_SpecInterface(input, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
 
 
-    image_t line_buffer[3][5];
+ image_t line_buffer[3][5];
 
 
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");

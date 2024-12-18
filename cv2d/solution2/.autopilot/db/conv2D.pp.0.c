@@ -148,9 +148,13 @@ void conv2d(image_t input[5][5],
 void conv2d(image_t input[5][5],
             kernel_t kernel[3][3],
             result_t output[5 - 3 + 1][5 - 3 + 1]) {_ssdm_SpecArrayDimSize(input, 5);_ssdm_SpecArrayDimSize(kernel, 3);_ssdm_SpecArrayDimSize(output, 3);
+#pragma HLS INTERFACE s_axilite port=return bundle=cv_io
+#pragma HLS INTERFACE s_axilite port=&output bundle=cv_io
+#pragma HLS INTERFACE s_axilite port=&kernel bundle=cv_io
+#pragma HLS INTERFACE s_axilite port=&input bundle=cv_io
 
 
-    image_t line_buffer[3][5];
+ image_t line_buffer[3][5];
 
 
 #pragma HLS PIPELINE

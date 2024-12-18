@@ -4,6 +4,10 @@
 void conv2d(image_t input[IMAGE_ROWS][IMAGE_COLS],
             kernel_t kernel[KERNEL_ROWS][KERNEL_COLS],
             result_t output[IMAGE_ROWS - KERNEL_ROWS + 1][IMAGE_COLS - KERNEL_COLS + 1]) {
+#pragma HLS INTERFACE s_axilite port=return bundle=cv_io
+#pragma HLS INTERFACE s_axilite port=output bundle=cv_io
+#pragma HLS INTERFACE s_axilite port=kernel bundle=cv_io
+#pragma HLS INTERFACE s_axilite port=input bundle=cv_io
 
     // Line buffer for storing a row of the input image
     image_t line_buffer[KERNEL_ROWS][IMAGE_COLS];
