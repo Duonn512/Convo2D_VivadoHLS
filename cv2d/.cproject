@@ -51,8 +51,6 @@
                                 								
                                 <option id="gnu.cpp.compiler.option.include.paths.1102052241" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="D:/CodesNStuffs/Hardware_Des_Lab/project_base"/>
-                                    									
                                     <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/ap_sysc"/>
                                     									
                                     <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/etc"/>
@@ -86,8 +84,6 @@
                                 <option id="gnu.c.compiler.exe.debug.option.debugging.level.1864773" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
                                 								
                                 <option id="gnu.c.compiler.option.include.paths.34285284" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-                                    									
-                                    <listOptionValue builtIn="false" value="D:/CodesNStuffs/Hardware_Des_Lab/project_base"/>
                                     									
                                     <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/ap_sysc"/>
                                     									
@@ -161,9 +157,39 @@
                         					
                     </folderInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.1498743949.1931385625" name="conv2D_test.c" rcbsApplicability="disable" resourcePath="testbench/conv2D_test.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1680469154.1578236512">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1680469154.1578236512" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1680469154">
+                            							
+                            <option id="gnu.c.compiler.option.preprocessor.def.symbols.940191115" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols"/>
+                            							
+                            <option id="gnu.c.compiler.option.include.paths.1671656867" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="D:/CodesNStuffs/Hardware_Des_Lab/project_base"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/win64/tools/systemc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.c.compiler.option.misc.other.1766036279" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.714219195" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <sourceEntries>
                         						
-                        <entry excluding="solution1|solution2|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="solution1|solution2|solution3|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -223,8 +249,6 @@
                                 								
                                 <option id="gnu.cpp.compiler.option.include.paths.1558718645" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="D:/CodesNStuffs/Hardware_Des_Lab/project_base"/>
-                                    									
                                     <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/ap_sysc"/>
                                     									
                                     <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/etc"/>
@@ -248,8 +272,6 @@
                                 <option id="gnu.c.compiler.exe.release.option.debugging.level.311190996" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
                                 								
                                 <option id="gnu.c.compiler.option.include.paths.227803516" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-                                    									
-                                    <listOptionValue builtIn="false" value="D:/CodesNStuffs/Hardware_Des_Lab/project_base"/>
                                     									
                                     <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/ap_sysc"/>
                                     									
@@ -313,9 +335,39 @@
                         					
                     </folderInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.2006096707.10927775" name="conv2D_test.c" rcbsApplicability="disable" resourcePath="testbench/conv2D_test.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.release.664011133.658803618">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.664011133.658803618" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release.664011133">
+                            							
+                            <option id="gnu.c.compiler.option.preprocessor.def.symbols.1734584852" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols"/>
+                            							
+                            <option id="gnu.c.compiler.option.include.paths.1661647757" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="D:/CodesNStuffs/Hardware_Des_Lab/project_base"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/win64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="D:/VivadoHLS/Vivado/2018.3/win64/tools/systemc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.c.compiler.option.misc.other.2139255065" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.192575073" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <sourceEntries>
                         						
-                        <entry excluding="solution1|solution2|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="solution1|solution2|solution3|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				

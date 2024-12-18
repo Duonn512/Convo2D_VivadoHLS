@@ -1,0 +1,49 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="conv2d" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="return" positionalBoolean="4"/>
+                <option name="bundle" value="cv_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="conv2d" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="input" positionalBoolean="4"/>
+                <option name="bundle" value="cv_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="conv2d" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="kernel" positionalBoolean="4"/>
+                <option name="bundle" value="cv_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="conv2d" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="output" positionalBoolean="4"/>
+                <option name="bundle" value="cv_io"/>
+            </pragma>
+        </directive>
+        <directive functionName="conv2d" label="conv2d_label0" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="line_buffer" positionalBoolean="4"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="conv2d" label="conv2d_label1" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="conv2d" label="conv2d_label2" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="conv2d" label="conv2d_label3" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

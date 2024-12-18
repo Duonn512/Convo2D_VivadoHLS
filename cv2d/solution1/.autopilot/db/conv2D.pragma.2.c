@@ -156,7 +156,9 @@ void conv2d(image_t input[5][5],
 
 
 
-    for (int x = 0; x < 5 - 3 + 1; x++) {
+
+
+    conv2d_label0:for (int x = 0; x < 5 - 3 + 1; x++) {
 
 
 
@@ -164,7 +166,7 @@ void conv2d(image_t input[5][5],
 
         if (x == 0) {
 
-            for (int i = 0; i < 3; i++) {
+            conv2d_label1:for (int i = 0; i < 3; i++) {
 
                 for (int j = 0; j < 5; j++) {
                     line_buffer[i][j] = input[i][j];
@@ -172,7 +174,7 @@ void conv2d(image_t input[5][5],
             }
         } else {
 
-            for (int i = 1; i < 3; i++) {
+            conv2d_label2:for (int i = 1; i < 3; i++) {
 
                 for (int j = 0; j < 5; j++) {
                     line_buffer[i-1][j] = line_buffer[i][j];
@@ -185,7 +187,7 @@ void conv2d(image_t input[5][5],
         }
 
 
-        for (int y = 0; y < 5 - 3 + 1; y++) {
+        conv2d_label3:for (int y = 0; y < 5 - 3 + 1; y++) {
             int sum = 0;
 
 

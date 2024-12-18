@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# xsim v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Dec 19 02:18:52 2024
+# Process ID: 22912
+# Current directory: D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/vhdl
+# Command line: xsim.exe -mode tcl -source {xsim.dir/conv2d/xsim_script.tcl}
+# Log file: D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/vhdl/xsim.log
+# Journal file: D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/vhdl\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/conv2d/xsim_script.tcl
+# xsim {conv2d} -autoloadwcfg -tclbatch {conv2d.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source conv2d.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set input__kernel__output__return_group [add_wave_group input__kernel__output__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/interrupt -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_BRESP -into $input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_BREADY -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_BVALID -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_RRESP -into $input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_RDATA -into $input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_RREADY -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_RVALID -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_ARREADY -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_ARVALID -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_ARADDR -into $input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_WSTRB -into $input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_WDATA -into $input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_WREADY -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_WVALID -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_AWREADY -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_AWVALID -into $input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/s_axi_cv_io_AWADDR -into $input__kernel__output__return_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/ap_done -into $blocksiggroup
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/ap_idle -into $blocksiggroup
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/ap_ready -into $blocksiggroup
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/ap_start -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_conv2d_top/AESL_inst_conv2d/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_conv2d_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_conv2d_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_conv2d_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_conv2d_top/LENGTH_input_r -into $tb_portdepth_group -radix hex
+## add_wave /apatb_conv2d_top/LENGTH_kernel -into $tb_portdepth_group -radix hex
+## add_wave /apatb_conv2d_top/LENGTH_output_r -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_input__kernel__output__return_group [add_wave_group input__kernel__output__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_conv2d_top/cv_io_INTERRUPT -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_BRESP -into $tb_input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/cv_io_BREADY -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_BVALID -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_RRESP -into $tb_input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/cv_io_RDATA -into $tb_input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/cv_io_RREADY -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_RVALID -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_ARREADY -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_ARVALID -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_ARADDR -into $tb_input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/cv_io_WSTRB -into $tb_input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/cv_io_WDATA -into $tb_input__kernel__output__return_group -radix hex
+## add_wave /apatb_conv2d_top/cv_io_WREADY -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_WVALID -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_AWREADY -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_AWVALID -into $tb_input__kernel__output__return_group -color #ffff00 -radix hex
+## add_wave /apatb_conv2d_top/cv_io_AWADDR -into $tb_input__kernel__output__return_group -radix hex
+## save_wave_config conv2d.wcfg
+## run all
+Note: simulation done!
+Time: 11205 ns  Iteration: 1  Process: /apatb_conv2d_top/generate_sim_done_proc  File: D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/vhdl/conv2d.autotb.vhd
+Failure: NORMAL EXIT (note: failure is to force the simulator to stop)
+Time: 11205 ns  Iteration: 1  Process: /apatb_conv2d_top/generate_sim_done_proc  File: D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/vhdl/conv2d.autotb.vhd
+$finish called at time : 11205 ns
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Dec 19 02:18:56 2024...

@@ -2,16 +2,9 @@
     <checksum>
         <value string="false"/>
     </checksum>
-    <downStreamTool>
-        <DownStreamTool name="vivado"/>
-    </downStreamTool>
-    <clockList>
-        <clock default="false" name="default" period="10"/>
-    </clockList>
     <config>
         <schedule model="conv2d"/>
         <config_compile blackbox=""/>
-        <config_export display_name="cv2d_lbuf" format="ip_catalog" rtl="vhdl" version="0.0.0"/>
     </config>
     <UIConfigurations>
         <UIAutosynConf boardInfo="ZedBoard Zynq Evaluation and Development Kit (xc7z020clg484-1) " hideTrivialOp="true" isBasedOnBoard="true" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
@@ -46,7 +39,7 @@
         </UIAutoSimConf>
     </UIConfigurations>
     <ExportDesign askAgain="true" evaluate="false" flow="false" flowChoice="syn" formatName="ip_catalog" rtl="verilog" rtlButton="true" rtlCombo="vhdl">
-        <Format display_name="cv2d_lbuf" formatName="ip_catalog" version="0.0.0" description="" vendor="" library="" ipname="" driver_input_dir="" taxonomy=""/>
+        <Format display_name="cv2d_lbuf_sol3" formatName="ip_catalog" version="0.0.0"/>
         <Format formatName="sysgen"/>
         <Format formatName="sysgen_ise"/>
         <Format formatName="syn_dcp"/>
@@ -72,5 +65,11 @@
         <library name="DefaultPlatform" value="xilinx/zynq/zynq"/>
         <library name="DefaultPlatform" value="xilinx/zynq/zynq_fpv6"/>
     </libraryList>
+    <downStreamTool>
+        <DownStreamTool name="vivado"/>
+    </downStreamTool>
+    <clockList>
+        <clock name="default" default="false" period="10"/>
+    </clockList>
 </solution>
 

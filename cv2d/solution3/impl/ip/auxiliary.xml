@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="conv2d" xd:componentRef="conv2d" xd:initiationInterval="491" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_cv_io" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="input[][]" xd:originalName="input" xd:direction="in" xd:interfaceRef="s_axi_cv_io" xd:busTypeRef="axilite" xd:offset="0x80" xd:arraySize="25" xd:dataWidth="32"/>
+  <xd:arg xd:name="kernel[][]" xd:originalName="kernel" xd:direction="in" xd:interfaceRef="s_axi_cv_io" xd:busTypeRef="axilite" xd:offset="0x100" xd:arraySize="9" xd:dataWidth="32"/>
+  <xd:arg xd:name="output[][]" xd:originalName="output" xd:direction="out" xd:interfaceRef="s_axi_cv_io" xd:busTypeRef="axilite" xd:offset="0x140" xd:arraySize="9" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="490" xd:worst-case="490" xd:average-case="490"/>
+  <xd:resourceEstimates xd:LUT="1489" xd:FF="1021" xd:BRAM="6" xd:DSP="9"/>
+</xd:acceleratorMap>

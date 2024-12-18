@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'conv2d'" level="0">
-<item name = "Date">Thu Dec 19 01:18:19 2024
+<item name = "Date">Thu Dec 19 02:28:41 2024
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">cv2d</item>
@@ -327,9 +327,9 @@
 <item name = "Max Delay">8.74</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'tmp6', conv2D.c:56">add, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp5', conv2D.c:56">add, 4.37, 4.37, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp3', conv2D.c:56">add, 4.37, 8.74, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp6', conv2D.c:54">add, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp5', conv2D.c:54">add, 4.37, 4.37, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp3', conv2D.c:54">add, 4.37, 8.74, -, -, -, -, -, -, -, -, -, -, -</column>
 </table>
 </item>
 </section>

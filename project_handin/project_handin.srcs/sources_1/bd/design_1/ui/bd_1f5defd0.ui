@@ -1,0 +1,51 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port reset_rtl -pg 1 -y 550 -defaultsOSRD
+preplace port dcm_locked_0 -pg 1 -y 640 -defaultsOSRD
+preplace port btns_5bits -pg 1 -y 330 -defaultsOSRD
+preplace port IIC_1_0 -pg 1 -y 120 -defaultsOSRD
+preplace port mb_reset_0 -pg 1 -y 530 -defaultsOSRD
+preplace port DDR_0 -pg 1 -y 60 -defaultsOSRD
+preplace port interrupt_0 -pg 1 -y 430 -defaultsOSRD
+preplace port FCLK_CLK1_0 -pg 1 -y 170 -defaultsOSRD
+preplace port mb_debug_sys_rst_0 -pg 1 -y 610 -defaultsOSRD
+preplace port aux_reset_in_0 -pg 1 -y 580 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -y 90 -defaultsOSRD
+preplace portBus interconnect_aresetn_0 -pg 1 -y 620 -defaultsOSRD
+preplace portBus bus_struct_reset_0 -pg 1 -y 560 -defaultsOSRD
+preplace portBus peripheral_reset_0 -pg 1 -y 590 -defaultsOSRD
+preplace inst rst_ps7_0_10M -pg 1 -lvl 1 -y 590 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -y 290 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 1 -y 320 -defaultsOSRD
+preplace inst conv2d_0 -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 1 820J
+preplace netloc rst_ps7_0_10M_bus_struct_reset 1 1 2 410J 560 NJ
+preplace netloc rst_ps7_0_10M_mb_reset 1 1 2 410J 530 NJ
+preplace netloc aux_reset_in_0_1 1 0 1 30J
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 3 30 -30 NJ -30 790
+preplace netloc rst_ps7_0_10M_interconnect_aresetn 1 1 2 380J 620 NJ
+preplace netloc rst_ps7_0_10M_peripheral_reset 1 1 2 NJ 590 NJ
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 1 400
+preplace netloc processing_system7_0_IIC_1 1 2 1 800J
+preplace netloc mb_debug_sys_rst_0_1 1 0 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 810J
+preplace netloc conv2d_0_interrupt 1 2 1 N
+preplace netloc axi_gpio_0_GPIO 1 2 1 800J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 170 410 210 790
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 1 380
+preplace netloc dcm_locked_0_1 1 0 1 20J
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 1 810J
+preplace netloc rst_ps7_0_10M_peripheral_aresetn 1 0 2 40 180 390
+preplace netloc reset_rtl_1 1 0 1 10J
+levelinfo -pg 1 -10 210 600 840 -top -40 -bot 690
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"3",
+   "da_ps7_cnt":"2"
+}

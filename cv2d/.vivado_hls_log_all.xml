@@ -12,11 +12,13 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('input_load_1', conv2D.c:30) on array 'input_r' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'input_r'." projectName="cv2d" solutionName="solution2" date="2024-12-19T01:18:18.218+0700" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/output' to 'conv2d/output_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution2" date="2024-12-19T01:18:17.776+0700" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/input' to 'conv2d/input_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution2" date="2024-12-19T01:18:17.764+0700" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/output' to 'conv2d/output_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution1" date="2024-12-19T00:48:35.934+0700" type="Warning"/>
-        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/input' to 'conv2d/input_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution1" date="2024-12-19T00:48:35.919+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/output' to 'conv2d/output_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution3" date="2024-12-19T02:29:48.810+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/input' to 'conv2d/input_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution3" date="2024-12-19T02:29:48.797+0700" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('input_load_1', conv2D.c:28) on array 'input_r' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'input_r'." projectName="cv2d" solutionName="solution2" date="2024-12-19T02:28:40.616+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/output' to 'conv2d/output_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution2" date="2024-12-19T02:28:40.182+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/input' to 'conv2d/input_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution2" date="2024-12-19T02:28:40.125+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/output' to 'conv2d/output_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution1" date="2024-12-19T02:28:21.894+0700" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv2d/input' to 'conv2d/input_r' to avoid the conflict with HDL keywords or other object names." projectName="cv2d" solutionName="solution1" date="2024-12-19T02:28:21.877+0700" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

@@ -1,0 +1,143 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "conv2d",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "return",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "bundle",
+                "value": "cv_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv2d",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "input",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "bundle",
+                "value": "cv_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv2d",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "kernel",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "bundle",
+                "value": "cv_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv2d",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "output",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "bundle",
+                "value": "cv_io"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv2d",
+          "label": "conv2d_label0",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "line_buffer",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "complete",
+                "value": "",
+                "positionalBoolean": "type"
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "conv2d",
+          "label": "conv2d_label1",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "conv2d",
+          "label": "conv2d_label2",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "conv2d",
+          "label": "conv2d_label3",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        }
+      ]
+    }]}

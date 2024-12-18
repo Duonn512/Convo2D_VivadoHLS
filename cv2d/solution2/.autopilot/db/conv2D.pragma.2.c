@@ -148,37 +148,59 @@ void conv2d(image_t input[5][5],
 void conv2d(image_t input[5][5],
             kernel_t kernel[3][3],
             result_t output[5 - 3 + 1][5 - 3 + 1]) {_ssdm_SpecArrayDimSize(input, 5);_ssdm_SpecArrayDimSize(kernel, 3);_ssdm_SpecArrayDimSize(output, 3);
-_ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
-_ssdm_op_SpecInterface(output, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
-_ssdm_op_SpecInterface(kernel, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
 _ssdm_op_SpecInterface(input, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+# 6 "conv2D.c"
 
+_ssdm_op_SpecInterface(kernel, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+# 6 "conv2D.c"
 
- image_t line_buffer[3][5];
+_ssdm_op_SpecInterface(output, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+# 6 "conv2D.c"
 
+_ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "cv_io", "", "", 0, 0, 0, 0, "", "");
+# 6 "conv2D.c"
 
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
+# 6 "conv2D.c"
 
 
- for (int x = 0; x < 5 - 3 + 1; x++) {
+
+    image_t line_buffer[3][5];
 
 
+
+
+
+
+
+    conv2d_label0:for (int x = 0; x < 5 - 3 + 1; x++) {
 _ssdm_SpecArrayPartition( line_buffer, 1, "COMPLETE", 0, "");
+# 17 "conv2D.c"
 
 
- if (x == 0) {
 
-            for (int i = 0; i < 3; i++) {
+
+
+
+        if (x == 0) {
+
+            conv2d_label1:for (int i = 0; i < 3; i++) {
 _ssdm_Unroll(0,0,0, "");
- for (int j = 0; j < 5; j++) {
+# 25 "conv2D.c"
+
+
+                for (int j = 0; j < 5; j++) {
                     line_buffer[i][j] = input[i][j];
                 }
             }
         } else {
 
-            for (int i = 1; i < 3; i++) {
+            conv2d_label2:for (int i = 1; i < 3; i++) {
 _ssdm_Unroll(0,0,0, "");
- for (int j = 0; j < 5; j++) {
+# 33 "conv2D.c"
+
+
+                for (int j = 0; j < 5; j++) {
                     line_buffer[i-1][j] = line_buffer[i][j];
                 }
             }
@@ -189,13 +211,16 @@ _ssdm_Unroll(0,0,0, "");
         }
 
 
-        for (int y = 0; y < 5 - 3 + 1; y++) {
+        conv2d_label3:for (int y = 0; y < 5 - 3 + 1; y++) {
+_ssdm_Unroll(0,0,0, "");
+# 46 "conv2D.c"
+
             int sum = 0;
 
 
-_ssdm_Unroll(0,0,0, "");
 
- for (int i = 0; i < 3; i++) {
+
+            for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
                     sum += line_buffer[i][y + j] * kernel[i][j];
                 }

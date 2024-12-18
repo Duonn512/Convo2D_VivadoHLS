@@ -1,0 +1,9 @@
+vhdl xil_defaultlib "AESL_sim_pkg.vhd"
+sv work "glbl.v"
+vhdl xil_defaultlib "AESL_axi_slave_cv_io.vhd"
+vhdl xil_defaultlib "conv2d.autotb.vhd"
+vhdl xil_defaultlib "conv2d.vhd"
+vhdl xil_defaultlib "conv2d_cv_io_s_axi.vhd"
+vhdl xil_defaultlib "conv2d_line_buffebkb.vhd"
+vhdl xil_defaultlib "conv2d_mux_32_32_eOg.vhd"
+

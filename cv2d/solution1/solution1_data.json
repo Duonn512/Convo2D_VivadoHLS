@@ -244,7 +244,7 @@
           "Estimate": "8.510"
         },
         "Loops": [{
-            "Name": "Loop 1",
+            "Name": "conv2d_label0",
             "TripCount": "3",
             "LatencyMin": "510",
             "LatencyMax": "516",
@@ -255,13 +255,13 @@
             "PipelineDepth": "170 ~ 172",
             "Loops": [
               {
-                "Name": "Loop 1.1",
+                "Name": "conv2d_label1",
                 "TripCount": "3",
                 "Latency": "36",
                 "PipelineII": "",
                 "PipelineDepth": "12",
                 "Loops": [{
-                    "Name": "Loop 1.1.1",
+                    "Name": "conv2d_label1.1",
                     "TripCount": "5",
                     "Latency": "10",
                     "PipelineII": "",
@@ -269,13 +269,13 @@
                   }]
               },
               {
-                "Name": "Loop 1.2",
+                "Name": "conv2d_label2",
                 "TripCount": "2",
                 "Latency": "24",
                 "PipelineII": "",
                 "PipelineDepth": "12",
                 "Loops": [{
-                    "Name": "Loop 1.2.1",
+                    "Name": "conv2d_label2.1",
                     "TripCount": "5",
                     "Latency": "10",
                     "PipelineII": "",
@@ -283,26 +283,26 @@
                   }]
               },
               {
-                "Name": "Loop 1.3",
+                "Name": "conv2d_label0.3",
                 "TripCount": "5",
                 "Latency": "10",
                 "PipelineII": "",
                 "PipelineDepth": "2"
               },
               {
-                "Name": "Loop 1.4",
+                "Name": "conv2d_label3",
                 "TripCount": "3",
                 "Latency": "132",
                 "PipelineII": "",
                 "PipelineDepth": "44",
                 "Loops": [{
-                    "Name": "Loop 1.4.1",
+                    "Name": "conv2d_label3.1",
                     "TripCount": "3",
                     "Latency": "42",
                     "PipelineII": "",
                     "PipelineDepth": "14",
                     "Loops": [{
-                        "Name": "Loop 1.4.1.1",
+                        "Name": "conv2d_label3.1.1",
                         "TripCount": "3",
                         "Latency": "12",
                         "PipelineII": "",
@@ -330,7 +330,7 @@
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2024-12-19 00:48:37 +0700",
+    "Time": "2024-12-19 02:28:23 +0700",
     "ToolName": "vivado_hls",
     "ToolVersion": "2018.3"
   }

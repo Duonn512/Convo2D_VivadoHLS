@@ -1,0 +1,19 @@
+   Build using "D:/VivadoHLS/Vivado/2018.3/msys64/mingw64/bin/g++"
+   Compiling apatb_conv2d.cpp
+   Compiling (apcc) conv2D_test.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'D:/VivadoHLS/Vivado/2018.3/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'user' on host 'laptop-v3au32s8' (Windows NT_amd64 version 6.2) on Thu Dec 19 02:18:40 +0700 2024
+INFO: [HLS 200-10] In directory 'D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) conv2D.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'D:/VivadoHLS/Vivado/2018.3/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'user' on host 'laptop-v3au32s8' (Windows NT_amd64 version 6.2) on Thu Dec 19 02:18:44 +0700 2024
+INFO: [HLS 200-10] In directory 'D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution3/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
