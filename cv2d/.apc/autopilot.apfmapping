@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="conv2D.c" path="D:\CodesNStuffs\Hardware_Des_Lab\project_base\conv2D.c"/>
+    <originFiles name="conv2D.h" path="D:\CodesNStuffs\Hardware_Des_Lab\project_base\conv2D.h"/>
+    <originFiles name="conv2D.c" path="D:\CodesNStuffs\Hardware_Des_Lab\project_base\conv2D.c"/>
+    <originFiles name="conv2D.h" path="D:\CodesNStuffs\Hardware_Des_Lab\project_base\conv2D.h"/>
+  </source>
+  <testbench>
+    <originFiles name="conv2D_test.c" path="D:\CodesNStuffs\Hardware_Des_Lab\project_base\conv2D_test.c"/>
+    <originFiles name="conv2D_test.c" path="D:\CodesNStuffs\Hardware_Des_Lab\project_base\conv2D_test.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

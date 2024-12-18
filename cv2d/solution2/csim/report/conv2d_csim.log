@@ -1,0 +1,37 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../conv2D_test.c in debug mode
+INFO: [HLS 200-10] Running 'D:/VivadoHLS/Vivado/2018.3/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'user' on host 'laptop-v3au32s8' (Windows NT_amd64 version 6.2) on Thu Dec 19 00:46:06 +0700 2024
+INFO: [HLS 200-10] In directory 'D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution2/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../conv2D.c in debug mode
+INFO: [HLS 200-10] Running 'D:/VivadoHLS/Vivado/2018.3/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'user' on host 'laptop-v3au32s8' (Windows NT_amd64 version 6.2) on Thu Dec 19 00:46:10 +0700 2024
+INFO: [HLS 200-10] In directory 'D:/CodesNStuffs/Hardware_Des_Lab/project_base/cv2d/solution2/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+Performing 2D convolution without padding...
+Input Image:
+   1    2    3    4    5 
+   6    7    8    9   10 
+  11   12   13   14   15 
+  16   17   18   19   20 
+  21   22   23   24   25 
+
+Kernel:
+   1    0    1 
+   0    1    0 
+   1    0    1 
+
+Calculated Output Image without Padding:
+  35   40   45 
+  60   65   70 
+  85   90   95 
+
+Verifying the calculated result...
+All results are correct!
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
